@@ -10,12 +10,7 @@ Dependencies:
     - numpy (versión 1.23.5)
     
 Usage:
-    Example:
-    ```python
-    import numpy as np
-    result = my_algorithm(input_data)
-    print(result)
-    ```
+    Example.py
 '''
 
 import numpy as np

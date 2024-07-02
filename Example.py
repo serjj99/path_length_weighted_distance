@@ -18,6 +18,7 @@ g.add_edge(4, 1, 1)
 g.add_edge(4, 5, 3)
 g.add_edge(5, 0, 1)
 
+
 '''
 # If you have the proximity matrix, you can create the network as follows
 M = np.array([[0, np.inf, np.inf, np.inf, np.inf, np.inf],
@@ -32,15 +33,18 @@ g.add_edge_matrix(M)
 
 '''
 
+
 '''
 Graph proximity matrix.
 '''
 print(g.edges)
 
+
 '''
 Weights associated with path lengths for path-length-weights distance calculation (W).
 '''
 print(g.weights)
+
 
 '''
 The graph is displayed using the networkx library.

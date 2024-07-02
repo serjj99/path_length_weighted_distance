@@ -140,7 +140,7 @@ class Graph:
     In case we have the proximity matrix of the graph, with this function
     we can associate this matrix to the new graph.
     '''
-    def new_edge_matrix(self, M):
+    def add_edge_matrix(self, M):
         self.edges = M
         
     
